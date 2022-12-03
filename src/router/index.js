@@ -3,6 +3,8 @@ import HomeView from '../views/HomeView.vue';
 
 import CrearView from '../components/CrearView.vue';
 import ListarView from '../components/ListarView.vue';
+import CrearPost from '../components/CrearPost.vue';
+import ListarPost from '../components/ListarPost.vue';
 
 const routes = [
   {
@@ -19,6 +21,16 @@ const routes = [
     path: '/listar',
     name: 'Listar',
     component: ListarView
+  },
+  {
+    path: '/crearPost/:id',
+    name: 'Crear Post',
+    component: CrearPost
+  },
+  {
+    path: '/listarPost',
+    name: 'Listar Post',
+    component: ListarPost
   },
   {
     path: '/about',

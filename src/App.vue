@@ -8,7 +8,7 @@
   <nav class="navbar navbar-expand navbar-light bg-light">
       <div class="nav navbar-nav">
           <router-link to="/listar" class="nav-link">Listar Categorias</router-link>
-          <router-link to="/crear/0" class="nav-link">Listar Posts</router-link>
+          <router-link to="/listarPost" class="nav-link">Listar Posts</router-link>
       </div>
   </nav>
 
